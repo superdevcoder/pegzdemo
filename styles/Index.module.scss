@@ -1,0 +1,99 @@
+    .container {
+        height: 100%;
+        overflow: hidden;
+        font-weight: 300;
+        background-color: white;
+    }
+
+    .column {
+        height: 100%;
+        float: left;
+        overflow: scroll
+    }
+
+.pageLink {
+    text-align: center;
+
+    margin: 46px 18px 42px 2px;
+    a {
+        margin: 0 40px;
+    }
+}
+
+.mc_embed_signup {
+    background: #fff;
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
+
+    .mc_embed_signup_scroll_item {
+        position: absolute; left: -5000px;
+    }
+}
+
+.main_container {
+    clear: both;
+    
+    img {
+        max-width: 100%
+    }
+    .center_item {
+        text-align: center;
+    }
+    .auction_section {
+        float:left;
+
+        width: 65vw;
+        background-color: white;
+        overflow: auto;
+        height: 100vh;
+
+        .nft_item {
+            width:100%;height:0px;position:relative;padding-bottom:100.000%;
+        }
+        .nft_iframe {
+            width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;
+        }
+    }
+
+    .right_section {
+        background: white;
+        float: left;
+        width: 30vw;
+        overflow-y: scroll;
+        height: 100vh;
+
+        .logomovie {
+            width: 100%;
+            background-color: white;
+            // overflow: scroll;
+
+            .logomovie_item {
+                margin: 30px;
+                height:0px;
+                position:relative;
+                padding-bottom:61.591%;
+            }
+
+            .logomovie_iframe {
+                width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;
+            }
+            
+        }
+                
+        .social {
+            max-width: 170px;
+            height: 55px;
+            margin: auto;
+            text-align: center;
+            display: flex;
+        }
+        .social_text_content {
+            font-family: "Comic Sans MS", "Comic Sans", "Chalkboard", "ChalkboardSE-Regular", sans-serif;
+            font-size: 11px;
+            text-align: center;
+        }
+        .divsocial {
+            padding: 5px
+        }
+    }
+}
