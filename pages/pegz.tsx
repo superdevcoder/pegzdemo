@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import styles from "../styles/Index.module.scss";
+import styles from "../styles/Pegz.module.scss";
 
 // pegz page start
 export const PegzPage: React.FC<{}> = () => {
